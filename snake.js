@@ -80,7 +80,7 @@ $(function () {
     snake = tempSnake;
   }
 
-  var $root = $('#root');
+  var $root = $('.container');
   createGrid($root);
   createSnake();
   $('body').on('keypress', function(e) {

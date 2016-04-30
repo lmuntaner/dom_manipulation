@@ -1,0 +1,23 @@
+.container {
+  height: 500px;
+  margin: 100px auto;
+  width: 500px;
+}
+
+.cell {
+  background-color: #2980b9;
+  background-size: contain;
+  border: 1px solid white;
+  box-sizing: border-box;
+  float: left;
+  height: 10%;
+  width: 10%;
+}
+
+.active {
+  background-color: #e67e22;
+}
+
+.active-head {
+  background-color: #e74c3c;
+}

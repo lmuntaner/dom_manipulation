@@ -12,7 +12,7 @@ $(function () {
     }
   };
 
-  function updateState() {
+  var updateState = function() {
     cells.forEach(function (cell) {
       var randomNum = Math.random() * 2;
       if (randomNum > 1) {
@@ -25,6 +25,6 @@ $(function () {
 
   setInterval(updateState, 500);
 
-  var $root = $('#root');
+  var $root = $('.container');
   createGrid($root);
 });

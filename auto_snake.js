@@ -71,7 +71,7 @@ $(function () {
     snake = tempSnake;
   }
 
-  var $root = $('#root');
+  var $root = $('.container');
   createGrid($root);
   createSnake();
   setInterval(move, 500);

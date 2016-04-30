@@ -31,6 +31,6 @@ $(function () {
 
   setInterval(updateState, 500);
 
-  var $root = $('#root');
+  var $root = $('.container');
   createGrid($root);
 });
