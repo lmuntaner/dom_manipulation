@@ -14,7 +14,7 @@ $(function () {
     $('.cell').on('click', function (event) {
       var cell = $(event.currentTarget);
       var id = cell.data('row') + "" + cell.data('col');
-      var url = 'http://pokeapi.co/api/v2/pokemon/' + id;
+      var url = 'http://pokeapi.co/api/v2/pokemon/' + id + '/';
       var interval = setInterval(function () {
         cell.toggleClass('active');
       }, 300)
